@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.text{
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.buttons{
+    padding: 2rem 0 2rem  0;
+    display: flex;
+    gap: .2rem;
+    justify-content: center;
+    /* border-bottom: .2rem solid rgb(31, 30, 30); */
+}
+
+.buttons button:hover{
+    cursor: pointer;
+}
+
+.buttons button{
+    height: 4rem;
+    width: 4rem;
+    border: 2px solid rgb(29, 29, 29);
+    border-radius: 50%;
+}
+
+#pink{
+    background-color: pink;
+}
+#orange{
+    background-color: orange;
+}
+#yellow{
+    background-color: yellow;
+}
+#tomato{
+    background-color: tomato;
+}
+#green{
+    background-color: green;
+}
+#red{
+    background-color: red;
+}
+
+.about{
+    font-size: 1.2rem;
+    text-align: center;
+
+}
